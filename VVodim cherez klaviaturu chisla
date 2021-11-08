@@ -1,0 +1,32 @@
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in); // Объявляем Scanner
+
+
+        int size = input.nextInt(); // Читаем с клавиатуры размер массива и записываем в size
+        int array[] = new int[0]; // Создаём массив int размером в size
+        System.out.println("Insert array elements:");
+        /*Пройдёмся по всему массиву, заполняя его*/
+
+
+            int sum = input.nextInt();
+            int value = input.nextInt();
+        int a;
+
+
+
+        System.out.print("Inserted array elements:");
+        
+            {
+                for(a=sum; a<=value;a++)
+                    System.out.println(a);
+
+            }
+            System.out.print(" " + array[a]); // Выводим на экран, полученный массив
+
+        System.out.println();
+    }
+}
